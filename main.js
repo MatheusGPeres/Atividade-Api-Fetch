@@ -1,7 +1,7 @@
 function mostraConselho(x, y) {
     let p = document.createElement('p');
     p.textContent = "Conselho nº " + y + ": " + x;
-    p.setAttribute("class", "conselho"); // Adiciona uma classe para referenciar mais tarde
+    p.setAttribute("class", "conselho");
     document.body.appendChild(p);
 }
 
