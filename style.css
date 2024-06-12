@@ -7,7 +7,6 @@ body {
 
 h2 {
     color: #4b0082;
-    /* roxo mais escuro */
     text-align: center;
 }
 
@@ -23,27 +22,21 @@ button {
 
 #btnConselho {
     background-color: #ffd700;
-    /* amarelo */
     color: #4b0082;
-    /* roxo mais escuro */
 }
 
 #btnApagaUm,
 #btnApagaTodos {
     background-color: #4b0082;
-    /* roxo mais escuro */
     color: #ffd700;
-    /* amarelo */
 }
 
 button:hover {
     background-color: #ffec8b;
-    /* amarelo claro */
 }
 
 .conselho {
     text-align: center;
     color: #4b0082;
-    /* roxo mais escuro */
     margin-top: 20px;
 }
