@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    color: #4b0082;
+    /* roxo mais escuro */
+    text-align: center;
+}
+
+button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#btnConselho {
+    background-color: #ffd700;
+    /* amarelo */
+    color: #4b0082;
+    /* roxo mais escuro */
+}
+
+#btnApagaUm,
+#btnApagaTodos {
+    background-color: #4b0082;
+    /* roxo mais escuro */
+    color: #ffd700;
+    /* amarelo */
+}
+
+button:hover {
+    background-color: #ffec8b;
+    /* amarelo claro */
+}
+
+.conselho {
+    text-align: center;
+    color: #4b0082;
+    /* roxo mais escuro */
+    margin-top: 20px;
+}
