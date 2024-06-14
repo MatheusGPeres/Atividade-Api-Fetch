@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f7f7f7;
+    background-color: #e0e0e0;
     margin: 0;
     padding: 0;
 }
@@ -8,6 +8,7 @@ body {
 h2 {
     color: #4b0082;
     text-align: center;
+    margin-top: 20px;
 }
 
 button {
@@ -26,7 +27,8 @@ button {
 }
 
 #btnApagaUm,
-#btnApagaTodos {
+#btnApagaTodos,
+#btnAtt {
     background-color: #4b0082;
     color: #ffd700;
 }
@@ -35,8 +37,24 @@ button:hover {
     background-color: #ffec8b;
 }
 
+.conselho-container {
+    border: 2px solid #4b0082;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .conselho {
     text-align: center;
     color: #4b0082;
     margin-top: 20px;
+    border: 1px solid #4b0082;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #f0f0f0;
 }
