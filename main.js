@@ -27,6 +27,11 @@ function fetchConselho() {
         .catch(error => console.error('Erro:', error));
 }
 
+function atualizarConselho() {
+    removerTodosConselhos();
+    fetchConselho();
+}
+
 function main() {
     document.querySelector("#btnConselho")
         .addEventListener('click', evt => {
@@ -42,6 +47,11 @@ function main() {
         .addEventListener('click', evt => {
             removerTodosConselhos();
         });
+
+    document.querySelector("#btnAtt")
+        .addEventListener('click', evt => {
+            atualizarConselho();
+        })
 }
 
 window.onload = main;
